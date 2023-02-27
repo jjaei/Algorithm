@@ -14,7 +14,7 @@ public class Main {
 	System.out.println(a*(b%10));
 	System.out.println(a*((Math.round(b/10))%10));
 	System.out.println(a*((Math.round(b/100))%100));
-	System.out.println(a*(b%1000));
+	System.out.println(a*b);
 	
   }		
 }
